@@ -130,7 +130,7 @@ h2 {
 }
 
 input[type=email] select {
-  width: 75%;
+  width: 50%;
   max-width: 275%;
   padding: 1px;
   margin: 2px 0;
@@ -141,7 +141,7 @@ input[type=email] select {
 }
 
 input[type=name] select {
-  width: 75%;
+  width: 50%;
   max-width: 275%;
   padding: 1px;
   margin: 2px 0;
