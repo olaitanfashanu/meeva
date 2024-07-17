@@ -1,6 +1,12 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
-
+* {
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+  
+}
 body {
   background-color: #eee;
   font-family: 'Lato', sans-serif;
@@ -126,8 +132,8 @@ h2 {
 input[type=email] select {
   width: 75%;
   max-width: 275%;
-  padding: 5px;
-  margin: 8px 0;
+  padding: 1px;
+  margin: 2px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 2px;
@@ -137,8 +143,8 @@ input[type=email] select {
 input[type=name] select {
   width: 75%;
   max-width: 275%;
-  padding: 5px;
-  margin: 8px 0;
+  padding: 1px;
+  margin: 2px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 2px;
