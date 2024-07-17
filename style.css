@@ -88,7 +88,7 @@ div > li{
 
 .container {
   display: grid;
-  max-width: 1500px;
+  max-width: 1600px;
   margin: 0px auto;
   width: 100%;
   text-align: center;
