@@ -205,7 +205,7 @@ input[type=name] select {
 
 .grid {
   display: inline-grid;
-  grid-template-columns: 200px 1500px;
+  grid-template-columns: 300px 1500px;
   padding: 10px;
 }
 
