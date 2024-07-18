@@ -213,6 +213,16 @@ div > ul {
     flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+  .grid {   
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .icon {   
+    display: none;
+  }
+}
 footer {
   display: flex;
   flex-direction: column;
