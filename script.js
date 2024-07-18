@@ -4,7 +4,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
         name: document.getElementById('name').value,
         email: document.getElementById('email').value
     };
-
+    
     fetch('/submit', {
         method: 'POST',
         headers: {
