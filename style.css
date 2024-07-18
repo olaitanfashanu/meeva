@@ -209,7 +209,7 @@ div > ul {
   font-weight: 700;
 }
 @media (max-width: 700px) {
-  .content, .navbar {   
+  .content, .navbar, .header {   
     flex-direction: column;
   }
 }
