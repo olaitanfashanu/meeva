@@ -208,18 +208,11 @@ div > ul {
   text-transform: uppercase;
   font-weight: 700;
 }
-
-@media (max-width: 700px) {
-  .header {   
-    flex-direction: column;
-  }
-}
 @media (max-width: 768px) {
   #content > .content, .navbar {   
     flex-direction: column;
   }
 }
-
 footer {
   display: flex;
   flex-direction: column;
