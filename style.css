@@ -1,12 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
-
 * {
   box-sizing: border-box;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  
-  
+
 }
+
 body {
   background-color: #eee;
   font-family: 'Lato', sans-serif;
@@ -209,20 +206,11 @@ div > ul {
   font-weight: 700;
 }
 @media (max-width: 768px) {
-  .content, .navbar {   
+  .content, .header {   
     flex-direction: column;
   }
 }
-@media (max-width: 768px) {
-  .grid {   
-    flex-direction: column;
-  }
-}
-@media (max-width: 768px) {
-  .icon {   
-    display: none;
-  }
-}
+
 footer {
   display: flex;
   flex-direction: column;
