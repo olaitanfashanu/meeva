@@ -207,7 +207,9 @@ div > ul {
 }
 @media (max-width: 768px) {
   .content, .header {   
-    flex-direction: column;
+    flex-direction: column !important;
+    width: 100% !important;
+    height: 100% !important; 
   }
 }
 
