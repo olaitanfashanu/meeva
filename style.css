@@ -226,7 +226,6 @@ div > ul {
 footer {
   display: flex;
   flex-direction: column;
-  flex-direction: column;
   background-color: #ddd;
   text-align: center;
   padding: 20px;
