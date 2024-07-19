@@ -6,14 +6,11 @@
   margin-bottom: 0px;
   
   
+  
 }
 body {
   background-color: #eee;
   font-family: 'Lato', sans-serif;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .header {
@@ -32,6 +29,11 @@ body {
   
 }
 
+@media (max-width: 768px) {
+  .header {
+    flex-wrap: wrap; 
+  }
+}
 
 .navbar {
   float: right; 
@@ -57,6 +59,27 @@ div > li{
   
 }
 
+@media (max-width: 650px) {
+  .navbar a{
+    margin-top: 1px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 0px 50px;
+     }
+   }
+
+@media (max-width: 650px) {
+  .navbar {
+   margin-top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 5px;
+     }
+   }
 
 .navbar a:hover {
   background:#ddd;
@@ -72,7 +95,14 @@ div > li{
   padding: 70px;
   }
 
-
+@media (max-width: 768px){
+  .container {
+    margin: 5px;
+    display: grid;
+    width: 100%;
+    padding: 10px auto;
+  }
+}
 
 iframe {
  display: block;
@@ -97,10 +127,10 @@ h2 {
 }
 
 input[type=email] select {
-  width: 50%;
+  width: 75%;
   max-width: 275%;
-  padding: 1px;
-  margin: 2px 0;
+  padding: 5px;
+  margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 2px;
@@ -108,10 +138,10 @@ input[type=email] select {
 }
 
 input[type=name] select {
-  width: 50%;
+  width: 75%;
   max-width: 275%;
-  padding: 1px;
-  margin: 2px 0;
+  padding: 5px;
+  margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 2px;
@@ -150,17 +180,29 @@ input[type=name] select {
   color: darkorange;
 }
 
-
+@media (max-width: 550px) {
+  #Products .icon {
+    display: none;
+  }
+}
 .container1 {
   width: 100%;
-  margin: 10px auto;
+  margin: 50px auto auto auto;
 }
 
 
+@media (max-width: 768px) {
+  #Products{
+    margin: 30px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     }
+   }
 
 .grid {
   display: inline-grid;
-  grid-template-columns: 300px 1500px;
+  grid-template-columns: auto auto;
   padding: 10px;
 }
 
@@ -179,6 +221,12 @@ div > h2 {
   column-gap: 20px;
 }
 
+@media (max-width: 560px) {
+  .container2 {
+    width: 100%;
+    flex-direction: column;
+     }
+   }
 
 .product {
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -208,21 +256,7 @@ div > ul {
   text-transform: uppercase;
   font-weight: 700;
 }
-@media (max-width: 768px) {
-  .content, .navbar {   
-    flex-direction: column;
-  }
-}
-@media (max-width: 768px) {
-  .grid {   
-    flex-direction: column;
-  }
-}
-@media (max-width: 768px) {
-  .icon {   
-    display: none;
-  }
-}
+
 footer {
   display: flex;
   flex-direction: column;
