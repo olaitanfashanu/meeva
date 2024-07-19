@@ -208,6 +208,7 @@ div > ul {
   text-transform: uppercase;
   font-weight: 700;
 }
+/* media queries for mobile */
 @media (max-width: 700px) {
   .content, .navbar {   
     flex-direction: column;
