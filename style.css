@@ -199,7 +199,7 @@ input[type=name] select {
     flex-direction: column;
      }
    }
-
+/* grid display for products */
 .grid {
   display: inline-grid;
   grid-template-columns: 300px 1500px;
