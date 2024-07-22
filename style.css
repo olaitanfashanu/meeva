@@ -202,7 +202,7 @@ input[type=name] select {
 /* grid display for products */
 .grid {
   display: inline-grid;
-  grid-template-columns: 300px 1300px;
+  grid-template-columns: 300px 1200px;
   padding: 10px;
 }
 
