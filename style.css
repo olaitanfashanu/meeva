@@ -103,6 +103,24 @@ div > li{
     padding: 10px auto;
   }
 }
+.contact {
+  display: grid;
+  max-width: 1600px;
+  margin: 100px auto 300px auto;
+  text-align: center;
+  padding: 70px;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    margin: auto;
+    display: grid;
+    width: 100%;
+    padding: 10px auto;
+  }
+  
+}
 
 iframe {
  display: block;
