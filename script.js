@@ -1,6 +1,13 @@
 function loadHTML(url, elementId) {
-    fetch(url).then(response => response.text()).then(data => {
-        document.getElementById(elementId).innerHTML = data;}).catch(error =>
+    // Use the Fetch API to get the content of the URL
+    fetch(url)
+        .then(response => response.text())  // Check if the response is OK
+        .then(data => {
+            // Find the element by its ID and set its innerHTML to the loaded HTML content
+            document.getElementById(elementId).innerHTML = data;
+        })
+        // Log any errors to the console
+        .catch(error =>
             console.error('Error loading HTML:', error));
 
 }
