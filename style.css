@@ -122,15 +122,6 @@ div > li{
   
 }
 
-@media only screen and (min-width: 768px) {
-  .contact {
-    margin: auto;
-    display: grid;
-    width: 100%;
-    padding: 10px auto;
-  }
-  
-}
 
 iframe {
  display: block;
