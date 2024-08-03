@@ -108,16 +108,14 @@ div > li{
   max-width: 1600px;
   margin: 100px auto 300px auto;
   text-align: center;
-  padding: 70px;
+  padding: 20px;
   justify-items: center;
 }
 
 @media only screen and (max-width: 767px) {
   .contact {
-    margin: auto;
     display: grid;
     width: 100%;
-    padding: 10px auto;
   }
   
 }
