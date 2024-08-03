@@ -112,7 +112,7 @@ div > li{
   justify-items: center;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .contact {
     margin: auto;
     display: grid;
