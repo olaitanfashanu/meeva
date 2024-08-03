@@ -132,6 +132,20 @@ div > li{
   cursor: pointer;
 }
 
+@media only screen and (min-width: 600px) {
+  .submit-button {
+    max-width: 540px;
+  }
+  
+}
+@media only screen and (min-width: 800px) {
+  .submit-button {
+    max-width: 720px;
+  }
+  
+}
+
+
 iframe {
  display: block;
  width: 600px;
