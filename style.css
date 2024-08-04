@@ -122,7 +122,7 @@ div > li{
 
 @media (min-width: 800px) {
   .contact {
-    max-width: 720px;
+    max-width: 768px;
     
   }
 }
@@ -142,7 +142,7 @@ div > li{
 
 @media (min-width: 800px) {
   .text-center {
-    max-width: 720px;
+    max-width: 768px;
     
   }
 }
@@ -160,7 +160,7 @@ div > li{
 
 @media (min-width: 800px) {
   .description {
-    max-width: 720px;
+    max-width: 768px;
     
   }
 }
@@ -182,7 +182,7 @@ div > li{
 
 @media (min-width: 800px) {
   .form-group {
-    max-width: 720px;
+    max-width: 768px;
     
   }
 }
@@ -213,7 +213,7 @@ div > li{
 }
 @media only screen and (min-width: 800px) {
   .submit-button {
-    max-width: 720px;
+    max-width: 768px;
   }
   
 }
