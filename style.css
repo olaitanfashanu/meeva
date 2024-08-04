@@ -126,6 +126,30 @@ div > li{
     
   }
 }
+
+.form-contact {
+  width: 100%;
+  border: 0px;
+  margin: 50px 50px 50px 50px;
+  border-style: groove;
+  padding: 20px;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .form-contact {
+    max-width: 540px;
+    
+  }
+}
+
+@media (min-width: 800px) {
+  .form-contact {
+    max-width: 768px;
+    
+  }
+}
+
 .text-center {
   padding: 15px 1px;
   margin: 30px 2px;
