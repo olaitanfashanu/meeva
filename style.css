@@ -107,9 +107,9 @@ div > li{
 .contact {
   display: grid;
   max-width: 1600px;
-  margin: 20px auto 400px auto;
+  margin: 60px auto 400px auto;
   text-align: center;
-  padding: 20px;
+  padding: 8px;
   justify-items: center;
 }
 
@@ -142,7 +142,7 @@ div > li{
 .form-contact {
   width: 100%;
   border: 0px;
-  margin: -16px -88px -7px 0px;
+  margin: 0px -50px -9px 5px;
   border-style: groove;
   padding: 20px;
   justify-content: center;
@@ -180,7 +180,7 @@ div > li{
   width: 50%;
   padding: 0px;
   justify-content: center;
-  margin: 4px 87px;
+  margin: 13px 88px;
 }
 
 #submit-button{
