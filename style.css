@@ -103,10 +103,11 @@ div > li{
     padding: 10px auto;
   }
 }
+
 .contact {
   display: grid;
   max-width: 1600px;
-  margin: 100px auto 400px auto;
+  margin: 20px auto 400px auto;
   text-align: center;
   padding: 20px;
   justify-items: center;
@@ -119,6 +120,32 @@ div > li{
   }
   
 }
+.text-center {
+  padding: 15px 1px;
+  margin: 30px 2px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+#description {
+  margin: -30px 4px;
+}
+
+.form-group {
+  width: 100%;
+  border: 0px;
+  margin: 0px 50px 0px 50px;
+  border-style: groove;
+  padding: 20px;
+  justify-content: center;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+}
+
 
 #submit-button{
   font-size: 16px;
@@ -126,9 +153,9 @@ div > li{
   background-color: #f1c40f;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 15px 11px;
   text-decoration: none;
-  margin: 4px 2px;
+  margin: 0px -86px;
   cursor: pointer;
 }
 
