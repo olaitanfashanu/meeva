@@ -140,11 +140,7 @@ div > li{
 
 #form {
   width: 100%;
-  border: 0px;
-  margin: 50px 50px 50px 50px;
-  border-style: groove;
-  padding: 20px;
-  justify-content: center;
+  
 }
 .form-group {
   width: 100%;
