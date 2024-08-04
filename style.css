@@ -142,7 +142,7 @@ div > li{
 .form-contact {
   width: 100%;
   border: 0px;
-  margin: 50px 50px 50px 50px;
+  margin: -16px -88px -7px 0px;
   border-style: groove;
   padding: 20px;
   justify-content: center;
@@ -165,25 +165,27 @@ div > li{
 .form-group {
   width: 100%;
   border: 0px;
-  margin: 13px 14px -277px -55px;
+  margin: 11px -2px -333px -39px;
   border-style: dotted;
   padding: 20px 0px;
   justify-content: center;
 }
 
 .form-control {
-  width: 158%;
-  padding: 12px;
+  width: 50%;
+  padding: 10px;
 }
 
 .input-text {
-  width: 72%;
+  width: 50%;
   padding: 12px;
+  justify-content: center;
+  margin: 12px 100px;
 }
 
 #submit-button{
   font-size: 16px;
-  width: 100%;
+  width: 50%;
   background-color: #f1c40f;
   border: none;
   color: white;
