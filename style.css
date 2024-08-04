@@ -127,6 +127,18 @@ div > li{
   }
 }
 
+.text-center {
+  padding: 15px 1px;
+  margin: 30px 2px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.description {
+  margin: -30px 4px;
+}
+
 .form-contact {
   width: 100%;
   border: 0px;
@@ -150,18 +162,6 @@ div > li{
   }
 }
 
-.text-center {
-  padding: 15px 1px;
-  margin: 30px 2px;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
-}
-
-.description {
-  margin: -30px 4px;
-}
-
 .form-group {
   width: 100%;
   border: 0px;
@@ -170,11 +170,16 @@ div > li{
   padding: 20px 0px;
   justify-content: center;
 }
+
 .form-control {
   width: 158%;
   padding: 12px;
 }
 
+.input-text {
+  width: 72%;
+  padding: 12px;
+}
 
 #submit-button{
   font-size: 16px;
