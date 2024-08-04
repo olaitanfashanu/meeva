@@ -113,12 +113,18 @@ div > li{
   justify-items: center;
 }
 
-@media only screen and (max-width: 767px) {
+@media (min-width: 600px) {
   .contact {
-    display: grid;
-    width: 100%;
+    max-width: 540px;
+    
   }
-  
+}
+
+@media (min-width: 800px) {
+  .contact {
+    max-width: 720px;
+    
+  }
 }
 .text-center {
   padding: 15px 1px;
