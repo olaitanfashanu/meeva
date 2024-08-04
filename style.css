@@ -133,6 +133,19 @@ div > li{
   flex-direction: column-reverse;
   justify-content: flex-end;
 }
+@media (min-width: 600px) {
+  .text-center {
+    max-width: 540px;
+    
+  }
+}
+
+@media (min-width: 800px) {
+  .text-center {
+    max-width: 720px;
+    
+  }
+}
 
 #description {
   margin: -30px 4px;
@@ -145,6 +158,20 @@ div > li{
   border-style: groove;
   padding: 20px;
   justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .form-group {
+    max-width: 540px;
+    
+  }
+}
+
+@media (min-width: 800px) {
+  .form-group {
+    max-width: 720px;
+    
+  }
 }
 
 .form-control {
