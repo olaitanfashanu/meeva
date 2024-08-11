@@ -19,16 +19,15 @@ document.addEventListener("DOMContentLoaded",function() {
 
 
 
+document.getElementById('form').addEventListener('submit', async (event) => {
+    event.preventDefault();
 
-
-function submitForm() {
     const form = {
         name: document.getElementById('name').value,
         email: document.getElementById('email').value
     };
-}
     
-    fetch('/api/submit', {
+const response = await fetch('/api/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -42,20 +41,19 @@ function submitForm() {
     .catch(error => {
         console.error('Error:', error);
     });
+}); 
 
+document.getElementById('form').addEventListener('submit', async (event) => {
+    event.preventDefault();
 
-
-function submitFormContact() {
     const formContact = {
         name: document.getElementById('name').value,
         email: document.getElementById('email').value,
         tel: document.getElementById('tel').value,
         text: document.getElementById('text').value
-
     };
-    }
-        
-    fetch('/api/submit', {
+         
+    const response = await fetch('/api/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -69,6 +67,5 @@ function submitFormContact() {
     .catch(error => {
         console.error('Error:', error);
     });
-    
-    
+});    
        
