@@ -60,7 +60,7 @@ function submitFormContact() {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(formContact)
     })
     .then(response => response.json())
     .then(data => {
