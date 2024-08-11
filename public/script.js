@@ -28,7 +28,7 @@ function submitForm() {
     };
 }
     
-    fetch('/api/data', {
+    fetch('/api/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -55,7 +55,7 @@ function submitFormContact() {
     };
     }
         
-    fetch('/api/data', {
+    fetch('/api/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
