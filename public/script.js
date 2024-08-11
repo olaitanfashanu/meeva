@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded",function() {
 
 
 function submitForm() {
-    const formData = {
+    const form = {
         name: document.getElementById('name').value,
         email: document.getElementById('email').value
     };
@@ -33,7 +33,7 @@ function submitForm() {
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(form)
     })
     .then(response => response.json())
     .then(data => {
@@ -46,7 +46,7 @@ function submitForm() {
 
 
 function submitFormContact() {
-    const formData = {
+    const formContact = {
         name: document.getElementById('name').value,
         email: document.getElementById('email').value,
         tel: document.getElementById('tel').value,
