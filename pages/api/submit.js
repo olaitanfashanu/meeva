@@ -24,7 +24,7 @@ async function handler(req, res) {
         
     } else {
         // handle non-POST requests
-        res.status(500).json({ message: 'Error inserting data', error});
+        res.status(500).json({ message: 'Failed to submit data', error});
     }
     
 }
