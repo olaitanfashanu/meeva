@@ -21,14 +21,14 @@ document.addEventListener("DOMContentLoaded",function() {
 
 const form = document.getElementById('form')
 
-form.addEventListener('submit', function (event) {
-    event.preventDefault();
+form.addEventListener('submit', function (event){ 
+    event.preventDefault()
 
-    const form = {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value
-    };
+    const name = document.getElementById('name').value
+    const email = document.getElementById('email').value
     
+})
+
 const response = await fetch('/api/submit', {
         method: 'POST',
         headers: {
@@ -43,7 +43,7 @@ const response = await fetch('/api/submit', {
     .catch(error => {
         console.error('Error:', error);
     });
-}); 
+
 
 document.getElementById('form').addEventListener('submit', async (event) => {
     event.preventDefault();
