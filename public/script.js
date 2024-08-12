@@ -29,7 +29,7 @@ form.addEventListener('submit', function (event){
     
 })
 
-const response = await fetch('/api/submit', {
+const response = await fetch('/pages/api/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
