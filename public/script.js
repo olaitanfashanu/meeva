@@ -19,7 +19,9 @@ document.addEventListener("DOMContentLoaded",function() {
 
 
 
-document.getElementById('form').addEventListener('submit', async (event) => {
+const form = document.getElementById('form')
+
+form.addEventListener('submit', function (event) {
     event.preventDefault();
 
     const form = {
