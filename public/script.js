@@ -45,29 +45,3 @@ const response = await fetch('/pages/api/submit', {
     });
 
 
-document.getElementById('form').addEventListener('submit', async (event) => {
-    event.preventDefault();
-
-    const formContact = {
-        name: document.getElementById('name').value,
-        email: document.getElementById('email').value,
-        tel: document.getElementById('tel').value,
-        text: document.getElementById('text').value
-    };
-         
-    const response = await fetch('/api/submit', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formContact)
-    })
-    .then(response => response.json())
-    .then(data => {
-        alert(data.message);
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
-});    
-       
