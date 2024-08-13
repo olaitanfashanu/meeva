@@ -45,7 +45,7 @@ document.getElementById('form').addEventListener('submit', async (event) => {
 
 });
 
-    document.getElementById('form').addEventListener('submit', async (event) => {
+    document.getElementById('formContact').addEventListener('submit', async (event) => {
         event.preventDefault();
     
         const formContact = {
