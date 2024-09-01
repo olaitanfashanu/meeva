@@ -39,18 +39,18 @@ form.addEventListener('submit', async (event) => {
 });
 
 
-const form = document.getElementById('formContact');
+const form1 = document.getElementById('formContact');
 form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
-    const formData = new FormData(form);
+    const formData1 = new FormData(form1);
 
-    const response = await fetch('/api/submit', {
+    const response = await fetch('/api/submit1', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(Object.fromEntries(formData))
+        body: JSON.stringify(Object.fromEntries(formData1))
     });
 
     const result = await response.json();
